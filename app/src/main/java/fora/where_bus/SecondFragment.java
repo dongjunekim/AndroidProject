@@ -16,10 +16,6 @@ public class SecondFragment extends Fragment {
     public SecondFragment() {
     }
 
-    /**
-     * Returns a new instance of this fragment for the given section
-     * number.
-     */
     public static SecondFragment newInstance(int sectionNumber) {
         SecondFragment fragment = new SecondFragment();
         Bundle args = new Bundle();
