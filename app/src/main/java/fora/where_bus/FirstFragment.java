@@ -11,16 +11,8 @@ import android.widget.TextView;
  * Created by 김동준 on 2016-10-01.
  */
 public class FirstFragment extends Fragment {
-    /**
-     * The fragment argument representing the section number for thi
-     * fragment.
-     */
     private static final String ARG_SECTION_NUMBER = "section_number";
 
-    /**
-     * Returns a new instance of this fragment for the given section
-     * number.
-     */
     public static FirstFragment newInstance(int sectionNumber) {
         FirstFragment fragment = new FirstFragment();
         Bundle args = new Bundle();
