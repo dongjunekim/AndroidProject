@@ -13,7 +13,6 @@ import android.widget.TextView;
 public class FirstFragment extends Fragment {
     private static final String ARG_SECTION_NUMBER = "section_number";
 
-    //hi
     public static FirstFragment newInstance(int sectionNumber) {
         FirstFragment fragment = new FirstFragment();
         Bundle args = new Bundle();
