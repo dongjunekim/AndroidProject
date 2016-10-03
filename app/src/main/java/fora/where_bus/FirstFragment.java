@@ -12,13 +12,10 @@ import android.widget.TextView;
  */
 public class FirstFragment extends Fragment {
     /**
-     * The fragment argument representing the section number for this
+     * The fragment argument representing the section number for thi
      * fragment.
      */
     private static final String ARG_SECTION_NUMBER = "section_number";
-
-    public FirstFragment() {
-    }
 
     /**
      * Returns a new instance of this fragment for the given section
